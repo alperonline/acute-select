@@ -1,17 +1,15 @@
-﻿.ac-select-wrapper {
+.ac-select-wrapper {
     position: relative;
     display: inline-block;
 }
 
-.ac-select-wrapper, .ac-select-wrapper input, .ac-select-wrapper select {
-    /*font-family: Arial;*/
-    font-size: 12px;
-    background-color: white;
-}
+    .ac-select-wrapper, .ac-select-wrapper input, .ac-select-wrapper select {
+        background-color: white;
+    }
 
 .ac-select-main {
     vertical-align: middle;
-    padding-left:2px;
+    padding-left: 2px;
     margin-right: -2px;
     height: 21px;
     border: 1px solid #c0c0c0;
@@ -53,18 +51,19 @@
 }
 
 td.ac-select-longest {
-    padding-right:4px;
+    padding-right: 4px;
 }
 
 td.ac-select-image {
     background-image: url('images/dropdown.gif');
     background-repeat: no-repeat;
-    height: 21px;
+    height: 19px;
     width: 19px !important;
     cursor: pointer;
     vertical-align: bottom;
     margin-bottom: 0px;
     border-left: solid 1px #e8e8e8;
+    border-right: solid 1px #ffffff;
 }
 
 div.ac-select-popup {
@@ -112,9 +111,9 @@ div.ac-select-no-items {
     padding-left: 6px;
 }
 
-.ac-select-search-wrapper table {
-    width: 100%;
-}
+    .ac-select-search-wrapper table {
+        width: 100%;
+    }
 
 .ac-select-search {
     padding-left: 2px;
@@ -126,7 +125,6 @@ td.ac-select-add {
     cursor: pointer;
     width: 20px;
     text-align: center;
-    font-size: 12px;
     font-weight: bold;
 }
 
@@ -137,10 +135,10 @@ td.ac-select-add {
     line-height: 16px;
 }
 
-.ac-select-add div:hover {
-    border: 1px solid #d0d0d0;
-    /*background-color: #f0f0f0;*/
-}
+    .ac-select-add div:hover {
+        border: 1px solid #d0d0d0;
+        /*background-color: #f0f0f0;*/
+    }
 
 .ac-select-disabled {
     color: #c0c0c0;
@@ -167,9 +165,9 @@ td.ac-select-add {
     white-space: nowrap;
 }
 
-.ac-select-popup li:hover {
-    background-color: #f0f0f0;   
-}
+    .ac-select-popup li:hover {
+        background-color: #f0f0f0;
+    }
 
 .ac-select-load-more {
     color: #808080;
@@ -190,9 +188,7 @@ td.ac-select-add {
 }
 
 .ac-select-filter-options {
-    font-family: Arial, sans-serif;
     padding: 2px 4px 0px 4px;
-    font-size: 10px;
     color: #666;
     border-top: solid 1px #d0d0d0;
 }
