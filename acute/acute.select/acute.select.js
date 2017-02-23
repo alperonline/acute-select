@@ -53,7 +53,7 @@ angular.module("acute.select", [])
                 $scope.matchFound = false;
 
                 // Check that ac-options and ac-model values are set
-                if (!$scope.acOptions || $scope.model === undefined) {
+                if (!$scope.acOptions) {
                     throw "ac-options and ac-model attributes must be set";
                 }
 
