@@ -1,0 +1,28 @@
+.ac-select-wrapper {
+    font-size: 14px;
+    margin-right: 5px;
+    top: 10px;
+}
+
+    .ac-select-wrapper > .ac-select-main {
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 30px;
+    }
+
+        .ac-select-wrapper > .ac-select-main > .ac-select-table {
+            height: 28px;
+        }
+
+            .ac-select-wrapper > .ac-select-main > .ac-select-table .ac-select-image {
+                background-position-x: 5px;
+                background-position-y: 10px;
+            }
+
+    .ac-select-wrapper div.ac-select-popup {
+        top: 30px;
+    }
+
+.ac-select-main {
+    border: 1px solid #e5e5e5;
+}
